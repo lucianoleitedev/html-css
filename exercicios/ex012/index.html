@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <title>Videos com HTML 5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu própio servidor.</p>
+
+    <!--<video src="midias/video1-1080p.mp4" width="500px" controls></video>-->  <!--Jeito mais fácil-->
+
+    
+     
+
+    <video width="500" poster="imagens/1.png" controls >
+        <!--source src="local do vídeo.mp4" type="tipo de vídeo/mp4" -->
+        <source src="midias/video1-1080p.mp4" type="video/mp4">
+        <source src="midias/meu-video.mkv.mkv" type="video/mkv">
+        <source src="midias/meu-video.webm.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+        <p>Faça o download do <a href="midias/video3-480p.mp4">vídeo CLICANDO AQUI!</a></p>
+    </video>
+
+    <p>
+        Goiaba &darr; &darr; &darr; &darr; &darr; &darr;
+    </p><p><video width="500" controls poster="imagens/2.png">
+        <source src="midias/video1-1080p.ogv">
+    </video></p>
+   
+    <h1>Este vídeo está hospedado em outro servidor</h1>
+    <h2>Jujutsu Kaisen 2 Temporada</h2>
+    <p> - Episódio 23</p>
+    
+    <video controls loop poster="Local da CAPA">               <!--poster="Local da CAPA"> -->
+        <source src="https://rr2---sn-cgpn5oxu-wqvk.googlevideo.com/videoplayback?expire=1705965759&ei=P4iuZYXyO9jFy_sPg4SRqAw&ip=2804:29b8:5010:8a59:453a:1b9a:de8d:80f&id=2bd8875cb65ecf16&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&mh=in&mm=31&mn=sn-cgpn5oxu-wqvk&ms=au&mv=m&mvi=2&pl=51&susc=bl&eaua=WIug9EHVF8Q&mime=video/mp4&vprv=1&dur=1420.178&lmt=1703788988828869&mt=1705936874&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,dur,lmt&sig=AJfQdSswRgIhAMnmdwhqI_TQ2CFEjzSs89Y5OASh5bxdPOB13Tv2XVmnAiEA9944VfVZd_QmHhoOBZ_O-nAv9TVAMatzpY9CBijm7MI%3D&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AAO5W4owRQIhAP6f2oiVds5IJqvoZsnXbSp7DqiTQdIw7v0XmARPzvV5AiAGPj1l7nON0TL0z9Pzp1oakDEimEJTsz5yk2jVG-DNow%3D%3D&cpn=DWQL25q7Sx0DWfNA&c=WEB_EMBEDDED_PLAYER&cver=1.20240115.00.00">
+    </video>
+
+    <h1>Inserindo vídeos do YOUTUBER</h1>
+    
+    
+    <iframe  width="560" height="315" src="https://www.youtube.com/embed/jQm6I5tmhJ0?si=y2EblOnFZsE8e3Y2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+</body>
+</html>

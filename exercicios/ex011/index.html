@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML 5</title>
+</head>
+<body>
+
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes
+     ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+
+     <picture>
+        <source media="(max-width:  750px)" srcset="imagens/imagem-p.png"type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexível">
+     </picture>
+
+   <p><Picture>
+    <source media="(max-width: 750px )" srcset="imagens/paisagem-p.png" type="image/png">
+    <source media="(max-width: 1050px )" srcset="imagens/paisagem-m.png" type="image/png">
+    <img src="imagens/paisagem-g.png" alt="Paisagem Grande">
+    </Picture></p> 
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+   <!-- <audio src="midia/musica1.mp3" controls autoplay>Naruto 1</audio>-->
+
+    <audio preload="metadata" play controls>       <!--para tocar automatico usa-se <autoplay>-->
+        <source src="midia/musica2.mp3" type="audio/mpeg">
+        <source src="midia/musica2.ogg" type="audio/ogg">
+        <source src="midia/musica2.wav" type="audio/wav">
+        <p>Infelismente o seu navegador não consegue reproduzir áudio.
+            <a href="midia/musica1.mp3">Clique aqui para baixar o arquivo MP3.</a>
+        </p>
+     </audio>
+
+
+
+    
+</body>
+</html>
